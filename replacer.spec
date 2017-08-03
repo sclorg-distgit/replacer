@@ -3,7 +3,7 @@
 
 Name:          %{?scl_prefix}replacer
 Version:       1.6
-Release:       4.1%{?dist}
+Release:       4.2%{?dist}
 Summary:       Replacer Maven Mojo
 License:       MIT
 URL:           https://github.com/beiliubei/maven-replacer-plugin
@@ -65,6 +65,9 @@ sed -i.hamcrest '/startsWith/d' src/test/java/com/google/code/maven_replacer_plu
 %license LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.6-4.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.6-4.1
 - Automated package import and SCL-ization
 
